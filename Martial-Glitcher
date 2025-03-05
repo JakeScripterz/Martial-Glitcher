@@ -275,7 +275,7 @@ local function outpuzt(animationTrack)
    end
 end
 
-humanoaid.AnimationPlayed:Connect(outpuzt)
+humanoaid.AnimationPlayed:Connect(output)
 
 local humanoaid = game.Players.LocalPlayer.Character.Humanoid
  
@@ -296,7 +296,7 @@ local function outpuzt(animationTrack)
    end
 end
  
-humanoaid.AnimationPlayed:Connect(outpuzt)
+humanoaid.AnimationPlayed:Connect(output)
 
 player.CharacterAdded:Connect(function(newCharacter)
 
