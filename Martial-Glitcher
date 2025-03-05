@@ -242,11 +242,11 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(2.5)
+Anim:AdjustSpeed(0)
 
 Anim.TimePosition = startTime
 
-Anim:AdjustSpeed(0.6)
+Anim:AdjustSpeed(3)
 
     end
 
