@@ -17,7 +17,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Combo1"
+ToolName.Text = "Soul Rift"
 
 -- Moves 2 Name
 
@@ -36,7 +36,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Slam1"
+ToolName.Text = "Fracture Slam"
 
 -- Moves 3 Name
 
@@ -55,7 +55,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Strong Grab"
+ToolName.Text = "Voidslam"
 
 -- Moves 4 Name
 
@@ -316,7 +316,7 @@ player.CharacterAdded:Connect(function(newCharacter)
 
 end)
 
-local ultimatename = "Glitch404"
+local ultimatename = "G̷l̵i̴t̸c̶h̴"
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
@@ -505,3 +505,52 @@ local function checkAndReplaceToolName()
 end
 
 checkAndReplaceToolName()
+
+
+
+
+-[[LEFT ARM COLORS]]
+ 
+local char = game.Players.LocalPlayer.Character
+getgenv().LArmCol = char['Left Arm'].ChildAdded:Connect(function(pp)
+if pp.Name == 'WaterPalm' then
+for i,v in pairs(pp:WaitForChild('ConstantEmit'):GetChildren()) do
+v.Color =
+ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
+Color3.fromRGB(105, 105, 105)), -- Change Color (Red, Green, Blue)
+ColorSequenceKeypoint.new(1.00, 
+Color3.fromRGB(160, 32, 240))} -- Change Color (Red, Green, Blue)
+end
+ 
+pp:WaitForChild('WaterTrail').Color = 
+ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
+Color3.fromRGB(255, 0, 0)), -- Change Color (Red, Green, Blue)
+ColorSequenceKeypoint.new(1.00, 
+Color3.fromRGB(0, 0, 255))} -- Change Color (Red, Green, Blue)
+pp:WaitForChild('WaterTrail').Color = 
+ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
+Color3.fromRGB(160, 32, 240)), -- Change Color (Red, Green, Blue) 
+ColorSequenceKeypoint.new(1.00, 
+Color3.fromRGB(160, 32, 240))} -- Change Color (Red, Green, Blue)
+ 
+end end)
+--[[RIGHT ARM colors]]
+ 
+getgenv().RArmCol = char['Right Arm'].ChildAdded:Connect(function(pp)
+if pp.Name == 'WaterPalm' then
+for i,v in pairs(pp:WaitForChild('ConstantEmit'):GetChildren()) do
+v.Color =
+ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
+Color3.fromRGB(105, 105, 105)), -- Change Color (Red, Green, Blue)
+ColorSequenceKeypoint.new(1.00, 
+Color3.fromRGB(160, 32, 240))} -- Change Color (Red, Green, Blue)
+end
+pp:WaitForChild('WaterTrail').Color = 
+ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
+Color3.fromRGB(160, 32, 240)), -- Change Color (Red, Green, Blue) 
+ColorSequenceKeypoint.new(1.00, 
+Color3.fromRGB(160, 32, 240))} -- Change Color (Red, Green, Blue)
+ 
+end end)
+ 
+--[[END OF GAROU COLORS]]
