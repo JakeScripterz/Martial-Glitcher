@@ -403,10 +403,10 @@ local OriginalName2 = "The Final Hunt"
 local OriginalName3 = "Rock Splitting Fist"
 local OriginalName4 = "Crushed Rock"
 
-local UltMovesetName1 = "Inserte Nombre"
-local UltMovesetName2 = "Inserte Nombre"
-local UltMovesetName3 = "Inserte Nombre"
-local UltMovesetName4 = "Inserte Nombre"
+local UltMovesetName1 = "Abyssal Soul Rend"
+local UltMovesetName2 = "Titanic Earthshatter"
+local UltMovesetName3 = "Eclipse of Oblivion"
+local UltMovesetName4 = "Ascendant Vortex Mastery"
 
 -- don't change
 local player = game.Players.LocalPlayer
