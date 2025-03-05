@@ -242,7 +242,7 @@ local startTime = 0
 
 Anim:Play()
 
-Anim:AdjustSpeed(1)
+Anim:AdjustSpeed(2.5)
 
 Anim.TimePosition = startTime
 
@@ -260,7 +260,7 @@ local humanoaid = game.Players.LocalPlayer.Character.Humanoid
  
 local animationid = 12351854556 -- replace this with your original id
  
-local replacement = 116153572280464 -- replace this with the animation replacing original id
+local replacement = 78521642007560 -- replace this with the animation replacing original id
  
 local function outpuzt(animationTrack)
    if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationid then
