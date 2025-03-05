@@ -254,67 +254,7 @@ end
 
 humanoid.AnimationPlayed:Connect(onAnimationPlayed)
 
--- Move 4 here
-
-local humanoaid = game.Players.LocalPlayer.Character.Humanoid
- 
-local animationid = 12351854556 -- replace this with your original id
- 
-local replacement = 78521642007560 -- replace this with the animation replacing original id
- 
-local function outpuzt(animationTrack)
-   if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationid then
-        animationTrack:Stop()
-        local replaceplacement = Instance.new("Animation")
-        replaceplacement.AnimationId = "rbxassetid://" .. replacement
- 
-        local whatelse = humanoaid:LoadAnimation(replaceplacement)
- 
-        whatelse:Play()
-        whatelse:AdjustSpeed(1)
-   end
-end
-
-humanoaid.AnimationPlayed:Connect(output)
-
-local humanoaid = game.Players.LocalPlayer.Character.Humanoid
- 
-local animationid = 13603396939 -- replace this with your original id
- 
-local replacement = 18896124320 -- replace this with the animation replacing original id
- 
-local function output(animationTrack)
-   if animationTrack.Animation.AnimationId == "rbxassetid://" .. animationid then
-        animationTrack:Stop()
-        local replaceplacement = Instance.new("Animation")
-        replaceplacement.AnimationId = "rbxassetid://" .. replacement
- 
-        local whatelse = humanoaid:LoadAnimation(replaceplacement)
- 
-        whatelse:Play()
-        whatelse:AdjustSpeed(1)
-   end
-end
- 
-humanoaid.AnimationPlayed:Connect(output)
-
-player.CharacterAdded:Connect(function(newCharacter)
-
-    character = newCharacter
-
-    humanoidRootPart = character:WaitForChild("HumanoidRootPart")
-
-    character.DescendantAdded:Connect(onBodyVelocityAdded)
-
-   
-
-    for _, descendant in pairs(character:GetDescendants()) do
-
-        onBodyVelocityAdded(descendant)
-
-    end
-
-end)
+-- Ult Name
 
 local ultimatename = "Glitch"
 
