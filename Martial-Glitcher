@@ -527,12 +527,6 @@ ColorSequence.new{ColorSequenceKeypoint.new(0.00,
 Color3.fromRGB(255, 0, 0)), -- Change Color (Red, Green, Blue)
 ColorSequenceKeypoint.new(1.00, 
 Color3.fromRGB(0, 0, 255))} -- Change Color (Red, Green, Blue)
-pp:WaitForChild('WaterTrail').Color = 
-ColorSequence.new{ColorSequenceKeypoint.new(0.00, 
-Color3.fromRGB(160, 32, 240)), -- Change Color (Red, Green, Blue) 
-ColorSequenceKeypoint.new(1.00, 
-Color3.fromRGB(160, 32, 240))} -- Change Color (Red, Green, Blue)
- 
 end end)
 --[[RIGHT ARM colors]]
  
