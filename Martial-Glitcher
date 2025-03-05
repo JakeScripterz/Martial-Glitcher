@@ -17,7 +17,7 @@ local baseButton = hotbarFrame:FindFirstChild("1").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name"
+ToolName.Text = "Combo1"
 
 -- Moves 2 Name
 
@@ -36,7 +36,7 @@ local baseButton = hotbarFrame:FindFirstChild("2").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name"
+ToolName.Text = "Slam1"
 
 -- Moves 3 Name
 
@@ -55,7 +55,7 @@ local baseButton = hotbarFrame:FindFirstChild("3").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name"
+ToolName.Text = "Strong Grab"
 
 -- Moves 4 Name
 
@@ -75,7 +75,7 @@ local baseButton = hotbarFrame:FindFirstChild("4").Base
 local ToolName = baseButton.ToolName
 
 
-ToolName.Text = "Name"
+ToolName.Text = "Yielding Arts"
 
 
 local Players = game:GetService("Players")
