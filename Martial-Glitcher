@@ -117,7 +117,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://15434683426"
+AnimAnim.AnimationId = "rbxassetid://16945550029"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -232,7 +232,7 @@ end
 
 local AnimAnim = Instance.new("Animation")
 
-AnimAnim.AnimationId = "rbxassetid://13376869471"
+AnimAnim.AnimationId = "rbxassetid://17141153099"
 
 local Anim = Humanoid:LoadAnimation(AnimAnim)
 
@@ -316,7 +316,7 @@ player.CharacterAdded:Connect(function(newCharacter)
 
 end)
 
-local ultimatename = "Inserte Ult Nombre"
+local ultimatename = "Glitch404"
 
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
